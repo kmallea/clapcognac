@@ -1,4 +1,7 @@
 
+<?php
+  require_once('feed.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +14,20 @@
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <style>
-  .trans-card{
-      background-color: rgba(255, 255, 255, 0.79);
-  }
+    .trans-card{
+        background-color: rgba(255, 255, 255, 0.79);
+    }
+
+    .post img{
+      width:80%;
+      display:block;
+      margin:0 auto 0;
+    }
+
+    .video-container{
+      margin-bottom:20px;
+    }
+
   </style>
 </head>
 <body>
@@ -116,9 +130,27 @@
   </div>
 
   <div id="stream" class="container">
+    
     <div class="section">
-      <div class="row center-align">
-        <div class="col s12">
+      <div class="row">
+        <div class="col s12 m8 post">
+        
+        <?php
+          foreach ($feed->items as $item){ 
+            $hasIframe = strpos($item['description'], "<iframe");
+          ?>
+            <div class="col s12">
+              <h5 class="header light"><?=$item['title']?></h5>
+              <?php if($hasIframe !== false){ ?> <div class="video-container"> <?php } ?>
+              <?=$item['description']?>
+              <?php if($hasIframe !== false){ ?> </div> <?php } ?>
+              <div class="divider"></div>
+            </div>
+      <?php
+          }
+        ?>
+        </div>
+        <div class="col s12 m4">
             <a class="twitter-timeline" href="https://twitter.com/Claption" data-widget-id="704865762322862080">Tweets by @Claption</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
