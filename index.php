@@ -28,20 +28,50 @@
       margin-bottom:20px;
     }
 
+    .icon{
+      display:inline-block;
+      width:28px;
+      height: 26px;
+      background-image: url(/img/follow/icons.png);
+      margin-left: 5px;
+    }
+
+    .icon.fb{
+      background-position: -37px 0;
+    }
+
+    .icon.ig{
+      background-position: -74px 0;
+    }
+
+    .icon.sc{
+      background-position: -112px 0;
+    }
+
+    .icon.twitter{
+      background-position: 0px 0;
+    }
+
+    .icon.yt{
+      background-position: -193px 0;
+    }
+
   </style>
 </head>
 <body>
   <nav class="black" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">CLAP COGNAC</a>
+      <a id="logo-container" href="/" class="brand-logo">CLAP COGNAC</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#buy">Buy #BLTN</a></li>
         <li><a href="#stream">Stream #BLTN</a></li>
+        <li><a href="/contact.php">Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
         <li><a href="#buy">Buy #BLTN</a></li>
         <li><a href="#stream">Stream #BLTN</a></li>
+        <li><a href="/contact.php">Contact</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -65,6 +95,20 @@
                 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiHz5qWyKDLAhVDGB4KHX9jAG0QFggcMAA&url=https%3A%2F%2Fopen.spotify.com%2Falbum%2F31AEW7d1MKi0VqTqgWc74r&usg=AFQjCNGV1KhSVaO9bsMFzHjF8876i2gkcQ&sig2=SmFl70BlOk1bkqF8cBd-hQ&bvm=bv.115339255,d.dmo" id="" class="" target="_blank"><img src="img/brands/spotify-logo.png" width="40"></a>
                 <a href="http://tidal.com/album/57775132" id="" class="" target="_blank"><img src="img/brands/tidal.png" width="40"></a>
                 <a href="https://play.google.com/store/music/album/Clap_Cognac_Better_Late_Than_Never?id=Bmhvsivs6mnmwrhpxylplz7qbui" id="" class="" target="_blank"><img src="img/brands/google-play-badge.png" height="40"></a>
+              </p>
+             </div>
+            </div>
+          </div>
+
+          <div class=" col s12 m4 offset-m4">
+            <div class="card trans-card">
+              <div class="card-content">
+                <p>
+                <a href="http://facebook.com/clapcognac" class="icon fb" target="_blank"></a>
+                <a href="http://instagram.com/claption" class="icon ig" target="_blank"></a>
+                <a href="http://twitter.com/claption" class="icon twitter" target="_blank"></a>
+                <a href="https://soundcloud.com/claption" class="icon sc" target="_blank"></a>
+                <a href="https://www.youtube.com/user/claption" class="icon yt" target="_blank"></a>
               </p>
              </div>
             </div>
