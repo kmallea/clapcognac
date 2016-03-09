@@ -91,9 +91,11 @@
               <div class="card-content">
                 <span class="card-title">Album available now!</span>
                 <p>
+
                 <a href="https://amzn.com/B01C9GKY0S" id="" class="" target="_blank"><img src="img/brands/amz.png" width="40"></a>
                 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiHz5qWyKDLAhVDGB4KHX9jAG0QFggcMAA&url=https%3A%2F%2Fopen.spotify.com%2Falbum%2F31AEW7d1MKi0VqTqgWc74r&usg=AFQjCNGV1KhSVaO9bsMFzHjF8876i2gkcQ&sig2=SmFl70BlOk1bkqF8cBd-hQ&bvm=bv.115339255,d.dmo" id="" class="" target="_blank"><img src="img/brands/spotify-logo.png" width="40"></a>
                 <a href="http://tidal.com/album/57775132" id="" class="" target="_blank"><img src="img/brands/tidal.png" width="40"></a>
+                <a href="http://itunes.apple.com/album/id1089807711" id="" class="" target="_blank"><img src="img/brands/apple-music-app-icon.png" width="40"></a>
                 <a href="https://play.google.com/store/music/album/Clap_Cognac_Better_Late_Than_Never?id=Bmhvsivs6mnmwrhpxylplz7qbui" id="" class="" target="_blank"><img src="img/brands/google-play-badge.png" height="40"></a>
               </p>
              </div>
@@ -164,7 +166,7 @@
           <h5 class="header col s12 light">Stream the album</h5>
           <p>Listen over and over again...</p>
           <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiHz5qWyKDLAhVDGB4KHX9jAG0QFggcMAA&url=https%3A%2F%2Fopen.spotify.com%2Falbum%2F31AEW7d1MKi0VqTqgWc74r&usg=AFQjCNGV1KhSVaO9bsMFzHjF8876i2gkcQ&sig2=SmFl70BlOk1bkqF8cBd-hQ&bvm=bv.115339255,d.dmo" id="" class="" target="_blank"><img src="img/brands/spotify-logo.png" width="40"></a>
-          <a href="http://tidal.com/album/57775132" id="" class="" target="_blank"><img src="img/brands/tidal.png" width="40"></a>
+          <a href="http://tidal.com/album/57775132" id="" class="" target="_blank"><img src="img/brands/tidal.png" width="40"></a> <a href="http://itunes.apple.com/album/id1089807711" id="" class="" target="_blank"><img src="img/brands/apple-music-app-icon.png" width="40"></a>
           <a href="https://play.google.com/store/music/album/Clap_Cognac_Better_Late_Than_Never?id=Bmhvsivs6mnmwrhpxylplz7qbui" id="" class="" target="_blank"><img src="img/brands/google-play-badge.png" height="40"></a>
           <br /><br />
         </div>
