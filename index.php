@@ -57,6 +57,17 @@
     }
 
   </style>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-75064555-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 </head>
 <body>
   <nav class="black" role="navigation">
@@ -96,6 +107,9 @@
                 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiHz5qWyKDLAhVDGB4KHX9jAG0QFggcMAA&url=https%3A%2F%2Fopen.spotify.com%2Falbum%2F31AEW7d1MKi0VqTqgWc74r&usg=AFQjCNGV1KhSVaO9bsMFzHjF8876i2gkcQ&sig2=SmFl70BlOk1bkqF8cBd-hQ&bvm=bv.115339255,d.dmo" id="" class="" target="_blank"><img src="img/brands/spotify-logo.png" width="40"></a>
                 <a href="http://tidal.com/album/57775132" id="" class="" target="_blank"><img src="img/brands/tidal.png" width="40"></a>
                 <a href="http://itunes.apple.com/album/id1089807711" id="" class="" target="_blank"><img src="img/brands/apple-music-app-icon.png" width="40"></a>
+                <br />
+                <a href="https://itunes.apple.com/mn/album/better-late-than-never/id1089807711" id="" class="" target="_blank"><img src="img/brands/badge_itunes-lrg.png" height="40"></a>
+
                 <a href="https://play.google.com/store/music/album/Clap_Cognac_Better_Late_Than_Never?id=Bmhvsivs6mnmwrhpxylplz7qbui" id="" class="" target="_blank"><img src="img/brands/google-play-badge.png" height="40"></a>
               </p>
              </div>
@@ -128,6 +142,9 @@
       <div class="row center-align">
         <div class="col s12">
           <div class="video-container">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/qU1Oczw3yvA?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="video-container">
             <iframe width="853" height="480" src="https://www.youtube.com/embed/ZkHVU-la-GE?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
@@ -155,6 +172,7 @@
         <div class="col s12 m4 center-align">
           <h5 class="header col s12 light">Buy the album</h5>
           <p>Love the album?<br /> Then buy the album!</p>
+          <a href="https://itunes.apple.com/mn/album/better-late-than-never/id1089807711" id="" class="" target="_blank"><img src="img/brands/badge_itunes-lrg.png" height="40"></a>
           <a href="https://amzn.com/B01C9GKY0S" id="" class="" target="_blank"><img src="img/brands/amz.png" width="40"></a>
           <a href="https://play.google.com/store/music/album/Clap_Cognac_Better_Late_Than_Never?id=Bmhvsivs6mnmwrhpxylplz7qbui" id="" class="" target="_blank"><img src="img/brands/google-play-badge.png" height="40"></a>
           <br /><br />
@@ -179,7 +197,7 @@
     
     <div class="section">
       <div class="row">
-        <div class="col s12 m8 post">
+        <div class="col s12 m6 post">
         
         <?php
           foreach ($feed->items as $item){ 
@@ -196,7 +214,7 @@
           }
         ?>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m6">
             <a class="twitter-timeline" href="https://twitter.com/Claption" data-widget-id="704865762322862080">Tweets by @Claption</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
